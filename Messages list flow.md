@@ -1,3 +1,7 @@
+#### Date: 14/03/2017
+
+#### Description: This document explains the code flow of messages list.
+
 #### Step 1:
 
 Function **controlMessageListFlow** will be called first from index.php to controller which shows the list of messages when user clicks on messages all side bar.
