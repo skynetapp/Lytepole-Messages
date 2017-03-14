@@ -15,6 +15,14 @@ Views | messageListForm, messageListFormMessage, ajax_messageListForm, ajax_mess
 
 #### Architecture
 
+Messages Process:
+
+- After login into lytepole, when we click on messages which is on the center of landing page, it will display the messages. 
+- When we enter text and submit, the action **DetailView** will be called and message will be created.
+- Whwn clicked on previous messages, it will load all messages.
+
+Twilio Chat process:
+
 - After login into lytepole, when we click on Messages in side menu, it will redirect to twilio chat page where all the contacts will be loaded with whom we have done the chat previously.
 - If any messages are unread, the count will be mentioned there for particular user.
 - Twilio api controls the flow of creating the channel, users, members for a channel etc.
