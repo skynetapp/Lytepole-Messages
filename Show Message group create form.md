@@ -1,3 +1,7 @@
+#### Date: 14/03/2017
+
+#### Description: This document explains the code flow of message group create form.
+
 #### Step 1:
 
 Function **showMessageGroupCreateForm** will be called first from index.php to controller which shows the message group contacts create form, and passing contacts list as input.
